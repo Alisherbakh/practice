@@ -1,3 +1,35 @@
+// C-TASK (NodeJS)
+// Savol::
+//Shunday function tuzing, u 2ta string parametr ega bolsin,
+// hamda agar har ikkala string bir hil harflardan iborat bolsa true aks holda false qaytarsin
+//MASALAN checkContent("mitgroup", "gmtiprou") return qiladi true;
+
+
+
+function checkContent(a, b) {
+      a =a.toLowerCase().split("").sort().join("")
+      b = b.toLowerCase().split("").sort().join("")
+  return a === b
+}
+ result = checkContent("mitgroup", "tgmipour")
+ console.log("result:", result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // TASK - B
 /* Savol:
  Shunday function tuzing, u 1ta string parametrga ega bolsin,
@@ -8,13 +40,13 @@ MASALAN countDigits("ad2a54y79wet0sfgb9") 7ni return qiladi.
 Yechim:
 */
 
-function countNum(a){
+// function countNum(a){
    
-  return a.split("").filter( ele =>  !isNaN(ele)).length
+//  return a.split("").filter( ele =>  !isNaN(ele)).length
      
- }
-const result = countNum("ghjhf43hy8k")
-console.log("result:", result)
+//  }
+// const result = countNum("ghjhf43hy8k")
+// console.log("result:", result)
 
 
 
