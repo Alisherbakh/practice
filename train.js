@@ -1,3 +1,22 @@
+// D-TASK (NodeJS)
+
+// Shunday function tuzingki unga integerlardan iborat array pass bolsin
+//  va function bizga osha arrayning eng katta qiymatiga tegishli birinchi indexni qaytarsin.
+// MASALAN: getHighestIndex([5, 21, 12, 21, 8]) return qiladi 1 sonini.
+// Yechim:
+
+function bigNumber(numb) {
+  
+   a = Math.max.apply(null, numb)
+   return numb.indexOf(a)
+}
+const result = bigNumber([5,10, 21, 12, 21, 8])
+console.log("result:", result)
+
+
+
+
+
 // C-TASK (NodeJS)
 // Savol::
 //Shunday function tuzing, u 2ta string parametr ega bolsin,
@@ -6,13 +25,13 @@
 
 
 
-function checkContent(a, b) {
-      a =a.toLowerCase().split("").sort().join("")
-      b = b.toLowerCase().split("").sort().join("")
-  return a === b
-}
- result = checkContent("mitgroup", "tgmipour")
- console.log("result:", result)
+//function checkContent(a, b) {
+//      a =a.toLowerCase().split("").sort().join("")
+//      b = b.toLowerCase().split("").sort().join("")
+//  return a === b
+// }
+// result = checkContent("mitgroup", "tgmipour")
+// console.log("result:", result)
 
 
 
