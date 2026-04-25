@@ -1,3 +1,19 @@
+// E-TASK (NodeJS)
+//
+// Shunday function tuzing, u bitta string argumentni
+// qabul qilib osha stringni teskari qilib return qilsin.
+// MASALAN: getReverse("hello") return qilsin "olleh"
+//  Yechim:
+
+function getReverse(a){
+      return a.split("").reverse().join("")
+}
+
+result = getReverse("apple")
+console.log(result)
+
+
+
 // D-TASK (NodeJS)
 
 // Shunday function tuzingki unga integerlardan iborat array pass bolsin
@@ -5,13 +21,13 @@
 // MASALAN: getHighestIndex([5, 21, 12, 21, 8]) return qiladi 1 sonini.
 // Yechim:
 
-function bigNumber(numb) {
-  
-   a = Math.max.apply(null, numb)
-   return numb.indexOf(a)
-}
-const result = bigNumber([5,10, 21, 12, 21, 8])
-console.log("result:", result)
+// function bigNumber(numb) {
+//  
+//   a = Math.max.apply(null, numb)
+//   return numb.indexOf(a)
+//  }
+// const result = bigNumber([5,10, 21, 12, 21, 8])
+// console.log("result:", result)
 
 
 
