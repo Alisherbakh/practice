@@ -1,3 +1,19 @@
+# K-TASK (PYTHON)
+
+# Shunday function yozing, u string qabul qilsin va
+# string ichidagi eng uzun sozni qaytarsin.
+# MASALAN: find_longest("I come from Uzbekistan") return "Uzbekistan"
+
+def find_longest(a):
+    b = a.split(" ")
+
+    return max(b, key=len)
+
+
+result = find_longest("I come from Uzbekistan")
+print("result:", result)
+
+
 # I-TASK (PYTHON)
 
 # Shunday function tuzing, unga string argument pass bolsin.
@@ -6,16 +22,16 @@
 # Yechim :
 
 
-def get_num(arg):
-    numb = []
-    for b in arg:
-        if b.isdigit():
-            numb.append(b)
-    return "".join(numb)
+# def get_num(arg):
+#    numb = []
+#    for b in arg:
+#        if b.isdigit():
+#            numb.append(b)
+#    return "".join(numb)
 
 
-result = get_num("m14i1t")
-print("result:", result)
+# result = get_num("m14i1t")
+# print("result:", result)
 
 
 # G-TASK (PYTHON)
