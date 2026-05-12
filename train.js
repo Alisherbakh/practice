@@ -1,3 +1,24 @@
+ // L-TASK (NodeJS)
+
+// Shunday function yozing, u string qabul qilsin va string ichidagi 
+// hamma sozlarni chappasiga yozib va sozlar ketma-ketligini 
+// buzmasdan stringni qaytarsin.
+// MASALAN: reverseSentence("we like coding!") return "ew ekil gnidoc";
+ 
+ function reverseSentence(ele){
+      
+      b = ele.split(" ").map(ele=> ele.split("").reverse().join("")).join(" ")
+      return b
+       
+      
+       
+ }
+
+ result = reverseSentence("we like coding!")
+ console.log("result:", result);
+ 
+ 
+ 
  // J-TASK (NodeJS)
 
  // Shunday function yozing, u parametridagi array ichida eng kop
@@ -5,28 +26,28 @@
  // MASALAN: majorityElement([1,2,3,4,5,4,3,4]) return 4
 // Yechim ::
 
- function manyNumber(numb){
-      let mostNum ;
-      let maxCount = 0;
-       for(let i=0; i < numb.length; i++){
-            let currentNum = 0;
+ //function manyNumber(numb){
+//    let mostNum ;
+//      let maxCount = 0;
+//       for(let i=0; i < numb.length; i++){
+//            let currentNum = 0;
+//
+//            for(let j= 0; j < numb.length; j++){
+//                  if(numb[i] === numb[j]){
+//                        currentNum++ ;
+//                  }
+//            }
+//            if(currentNum > maxCount){
+//                  maxCount = currentNum;
+//                  mostNum = numb[i];
+//            }
+//       }
+//       return mostNum ;
+//        
+// }
 
-            for(let j= 0; j < numb.length; j++){
-                  if(numb[i] === numb[j]){
-                        currentNum++ ;
-                  }
-            }
-            if(currentNum > maxCount){
-                  maxCount = currentNum;
-                  mostNum = numb[i];
-            }
-       }
-       return mostNum ;
-        
- }
-
- result = manyNumber([1,2,3,4,5,4,3,4]);
- console.log("result:", result);
+// result = manyNumber([1,2,3,4,5,4,3,4]);
+// console.log("result:", result);
 
 
 
